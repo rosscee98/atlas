@@ -1,12 +1,8 @@
-import { SafeAreaView, StyleSheet, Text, View } from "react-native";
-import Main from "./src/screens/main";
+import { StyleSheet } from "react-native";
+import HomeScreen from "./src/screens/home/home";
 
 export default function App() {
-  return (
-    <SafeAreaView>
-      <Main />
-    </SafeAreaView>
-  );
+  return <HomeScreen />;
 }
 
 const styles = StyleSheet.create({
