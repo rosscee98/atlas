@@ -1,7 +1,12 @@
-import { Text } from "react-native";
+import { Button, Text } from "react-native";
 
 const Main = () => {
-    return <Text>hiya</Text>
-}
+  return (
+    <>
+      <Text>hiya</Text>
+      <Button title="New" />
+    </>
+  );
+};
 
 export default Main;
